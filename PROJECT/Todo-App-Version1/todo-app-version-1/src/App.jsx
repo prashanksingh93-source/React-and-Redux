@@ -13,6 +13,7 @@ function App() {
     <TodoItem2/>
     </div>  
     </center>
+  
   )
 }
 
