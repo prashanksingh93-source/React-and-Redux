@@ -4,11 +4,11 @@ export function TodoItem2() {
 
   return (
     <div class="container">
-      <div class="row kg-row">
+      <div class="row AP-row">
         <div class="col-6">{todoName}</div>
         <div class="col-4">{todoDate}</div>
         <div class="col-2">
-          <button type="button" class="btn btn-danger kg-button">
+          <button type="button" class="btn btn-danger AP-button">
             Delete
           </button>
         </div>
