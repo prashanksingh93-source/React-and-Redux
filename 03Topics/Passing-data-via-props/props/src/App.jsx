@@ -9,7 +9,7 @@ import Nameitem from './component/Nameitem.jsx'
 
 function App() {
   //let Name=[]
-  let Name=['Annu','deepu','seetu','rishu']
+  // let Name=['Annu','deepu','seetu','rishu']
   
   return(
     <><h1>Name</h1>
