@@ -1,4 +1,4 @@
-function Item(props){
-   return <li className="list-group-item">{props.QName}</li>
+function Item({item}){
+   return <li className="list-group-item" name={item}>{item}</li>
 }
 export default Item

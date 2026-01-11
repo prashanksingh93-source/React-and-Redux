@@ -1,8 +1,13 @@
-import Item from "./Item"   
-function Nameitem(){
-    let Name=['Annu','deepu','seetu','rishu']
-    return <ul className="list-group">
-    {Name.map((item)=>(<Item key={item} QName={item}></Item>))}
-    </ul>} 
+import Item from "./Item";
 
-export default Nameitem
+function Nameitem({ item }) {
+  return (
+    <ul className="list-group">
+      {item.map((name) => (
+        <Item key={name} item={name} />
+      ))}
+    </ul>
+  );
+}
+
+export default Nameitem;
