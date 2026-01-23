@@ -1,0 +1,46 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+  color: rgb(76, 56, 16);
+  height: 50px;
+}
+nav ul li{
+  list-style-type: none;
+}
+label{
+  display: block;
+}
+form{
+  text-align: center;
+}
+h1{text-align: center;}
+
+.card{
+  display: flex;
+  background-color: aqua;
+  height: 150px;
+  width: 150px ;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  margin: 10px;
+}
+.card .title{
+  align-items: center;
+  font-weight: 2000;
+}
+.yourNote{
+ align-items: center;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
